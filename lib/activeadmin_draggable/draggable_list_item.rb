@@ -8,20 +8,20 @@ module ActiveAdmin
       if item_to_insert_at
         @item_to_insert_at = item_to_insert_at
         if moving_up?
-          @item_image.insert_at(@item_to_insert_at.position)
-          @item_image.increment_position
+          @dropped_item.insert_at(@item_to_insert_at.position)
+          @dropped_item.increment_position
         else
-          @item_image.insert_at(@item_to_insert_at.position)
+          @dropped_item.insert_at(@item_to_insert_at.position)
         end
       else
-        @dropped_image.move_to_top
+        @dropped_item.move_to_top
       end
     end
 
     private
 
     def moving_up?
-      @image_to_insert_at.position < @dropped_image.position
+      @item_to_insert_at.position < @dropped_item.position
     end
   end
 end
