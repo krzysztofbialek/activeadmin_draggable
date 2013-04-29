@@ -1,6 +1,7 @@
 //= require jquery
 //= require activeadmin_draggable/jquery.table_tree
 //= require activeadmin_draggable/jquery.tablednd_0_5
+
 $(document).ready(function(){
   //sortable tables
 	$('a.reorder').click(function(event) {
