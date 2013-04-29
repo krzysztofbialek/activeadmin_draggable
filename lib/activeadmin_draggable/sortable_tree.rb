@@ -1,3 +1,4 @@
+module ActiveadminDraggable
 module ActiveAdmin
   module Views
     # An index page component, which allows both list and tree reordering
@@ -67,4 +68,5 @@ module ActiveAdmin
     end
   end
 
+end
 end
