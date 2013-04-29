@@ -6,10 +6,10 @@ require 'activeadmin_draggable/version'
 Gem::Specification.new do |spec|
   spec.name          = "activeadmin_draggable"
   spec.version       = ActiveadminDraggable::VERSION
-  spec.authors       = ["krzysztofbialek"]
-  spec.email         = ["zlo@o2.pl"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["Krzysztof Białek", "Łukasz Pełszyński"]
+  spec.email         = ["krzysztofbialek@gmail.com"]
+  spec.description   = %q{Active admin sortable add on}
+  spec.summary       = %q{Adds sortable_table type which uses acts as list for changing order of items with nice js tool}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_dependency "acts_as_list"
 end

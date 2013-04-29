@@ -1,5 +1,6 @@
 require "activeadmin_draggable/version"
 
 module ActiveadminDraggable
-  # Your code goes here...
+  class Engine < Rails::Engine
+  end
 end
