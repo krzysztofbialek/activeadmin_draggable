@@ -119,12 +119,23 @@ jQuery.tableDnD = {
         return this;
     },
 
+  
+    //unbind all event from table
+    teardown: function(table){
+			var rows = table.find("tr");
+      var link = $('a.reorder');
+      $.each(rows, function(){
+        $(this).unbind();
+        $(this).css('cursor', 'default');
+      });
+    },
+
     /** This function makes all the rows on the table draggable apart from those marked as "NoDrag" */
     makeDraggable: function(table) {
         var config = table.tableDnDConfig;
 		if (table.tableDnDConfig.dragHandle) {
 			// We only need to add the event to the specified cells
-			var cells = $("td."+table.tableDnDConfig.dragHandle, table);
+    jQuery.tableDnD.teardown(table);
 			cells.each(function() {
 				// The cell is bound to "this"
                 jQuery(this).mousedown(function(ev) {

@@ -3,28 +3,20 @@
 //= require activeadmin_draggable/jquery.tablednd_0_5
 
 $(document).ready(function(){
-  //sortable tables
+  //enabling and disaabling reorder mode of resources table
 	$('a.reorder').click(function(event) {
 		event.preventDefault();
+    var link = $(this)
 		var url = this.href
 		TableTree.toggle($('table.list'), url);
+    if (link.text() == link.data('on_text')){
+      link.text(link.data('off_text'));
+    } else {
+      link.text(link.data('on_text'));
+    }
+
 		return false;
 	});
-
-  $('#add_product_button').click(function(event) {
-    event.preventDefault();
-    $('div.modal').omniWindow() // create modal
-      .trigger('show'); // and show it
-    return false;
-  });
-
-  $('#search-attributes .layout-slider input').each(function(index, value) {
-    var sb = new SliderBar();
-    sb.initialize(value);
-  });
-
-
-  // calculate next matching value from given set of options
 
 });
 
