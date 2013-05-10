@@ -183,7 +183,7 @@ TableTree.Table.prototype = jQuery.extend(new TableTree.Base(), {
   },
   show_spinner: function(row) {
     img = document.createElement('img');
-    img.src = '/assets/activeadmin_draggable/indicator.gif';
+    img.src = '/assets/indicator.gif';
     img.className = 'spinner';
     $('td', row)[0].appendChild(img);
   },

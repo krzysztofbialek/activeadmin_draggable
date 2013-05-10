@@ -1,0 +1,16 @@
+Connecting to database specified by database.yml
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-10 11:38:49 +0200
+Served asset /activeadmin_draggable.js - 404 Not Found (4ms)
+Connecting to database specified by database.yml
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-10 12:06:56 +0200
+Served asset /activeadmin_draggable.js - 404 Not Found (3ms)
+Connecting to database specified by database.yml
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-10 12:36:35 +0200
+Compiled jquery.js  (1ms)  (pid 11956)
+Compiled jquery.table_tree.js  (0ms)  (pid 11956)
+Compiled jquery.tablednd_0_5.js  (0ms)  (pid 11956)
+Compiled activeadmin_draggable.js  (41ms)  (pid 11956)
+Served asset /activeadmin_draggable.js - 200 OK (52ms)
+Connecting to database specified by database.yml
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-10 12:37:28 +0200
+Served asset /activeadmin_draggable.js - 200 OK (7ms)

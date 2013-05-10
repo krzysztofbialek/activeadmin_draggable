@@ -1,6 +1,6 @@
 //= require jquery
-//= require activeadmin_draggable/jquery.table_tree
-//= require activeadmin_draggable/jquery.tablednd_0_5
+//= require jquery.table_tree
+//= require jquery.tablednd_0_5
 
 $(document).ready(function(){
   //enabling and disaabling reorder mode of resources table

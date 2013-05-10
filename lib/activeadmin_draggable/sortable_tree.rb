@@ -1,3 +1,5 @@
+require 'activeadmin'
+
 module ActiveAdmin
   module Views
     # An index page component, which allows both list and tree reordering
