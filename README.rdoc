@@ -4,7 +4,9 @@ ActiveadminDraggable is a items reordering add on to active_admin tables.
 With build in javascript and methods allows you to easily change your item index tables
 in active_admin into sortable tables. With one click you will be able to enter +reorder+ mode
 and drag and drop items to desired position in the list. Asynchronous javascript will update their
-position for you. 
+position for you.
+
+Functionality was initialy created by @detomastah for one of our projects. 
 
 == Installation
 
@@ -21,6 +23,10 @@ position for you.
   Or install it yourself as:
 
       $ gem install activeadmin_draggable
+
+  Add to your application.js
+    
+      //= require activeadmin_draggable
 
 * Install acts_as_list 
 
