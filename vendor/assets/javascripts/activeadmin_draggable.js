@@ -2,6 +2,8 @@
 //= require jquery.table_tree
 //= require jquery.tablednd_0_5
 
+// Test string"
+
 $(document).ready(function(){
   //enabling and disaabling reorder mode of resources table
 	$('a.reorder').click(function(event) {

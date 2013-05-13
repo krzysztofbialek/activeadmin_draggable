@@ -1,3 +1,5 @@
+// Test string
+
 TableTree = {
   tableDnDOptions: {
     onDragClass: 'drag',

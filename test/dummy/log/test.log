@@ -14,3 +14,355 @@ Served asset /activeadmin_draggable.js - 200 OK (52ms)
 Connecting to database specified by database.yml
 Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-10 12:37:28 +0200
 Served asset /activeadmin_draggable.js - 200 OK (7ms)
+Connecting to database specified by database.yml
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-10 14:12:16 +0200
+Served asset /activeadmin_draggable.js - 200 OK (8ms)
+Started GET "/admin" for 127.0.0.1 at 2013-05-10 14:12:16 +0200
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-10 14:47:30 +0200
+Served asset /activeadmin_draggable.js - 200 OK (7ms)
+Connecting to database specified by database.yml
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-10 14:54:49 +0200
+Compiled jquery.table_tree.js  (0ms)  (pid 15367)
+Compiled jquery.tablednd_0_5.js  (0ms)  (pid 15367)
+Compiled activeadmin_draggable.js  (3ms)  (pid 15367)
+Served asset /activeadmin_draggable.js - 200 OK (17ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-10 14:54:49 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (4ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-10 14:54:49 +0200
+Served asset /jquery.table_tree.js - 200 OK (4ms)
+Connecting to database specified by database.yml
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-10 14:55:45 +0200
+Served asset /activeadmin_draggable.js - 200 OK (7ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-10 14:55:45 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (2ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-10 14:55:45 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-10 14:56:39 +0200
+Served asset /activeadmin_draggable.js - 200 OK (7ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-10 14:56:39 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (2ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-10 14:56:39 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-13 10:49:21 +0200
+Served asset /activeadmin_draggable.js - 200 OK (135ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-13 10:49:21 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (14ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-13 10:49:21 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (32.3ms)[0m  INSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 13 May 2013 09:35:51 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 09:35:51 UTC +00:00]]
+  [1m[36m (298.7ms)[0m  [1mcommit transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (24.7ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 09:38:57 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 09:38:57 UTC +00:00]]
+  [1m[35m (383.2ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (27.0ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 09:39:20 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 09:39:20 UTC +00:00]]
+  [1m[35m (317.0ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (27.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 09:43:41 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 09:43:41 UTC +00:00]]
+  [1m[35m (288.5ms)[0m  commit transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 09:43:41 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 09:43:41 UTC +00:00]]
+  [1m[35m (288.5ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (228.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:07:17 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:07:17 UTC +00:00]]
+  [1m[35m (370.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:07:18 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:07:18 UTC +00:00]]
+  [1m[35m (404.0ms)[0m  commit transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (25.1ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:09:32 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:09:32 UTC +00:00]]
+  [1m[35m (299.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:09:32 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:09:32 UTC +00:00]]
+  [1m[35m (266.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (24.2ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:12:15 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:12:15 UTC +00:00]]
+  [1m[35m (375.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:12:15 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:12:15 UTC +00:00]]
+  [1m[35m (273.1ms)[0m  commit transaction
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mSQL (288.9ms)[0m  [1mUPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1 AND position < 2)[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mUPDATE "items" SET "position" = 1, "updated_at" = '2013-05-13 11:12:16.113050' WHERE "items"."id" = 11[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 1)
+  [1m[36m (267.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mUPDATE "items" SET "position" = 2, "updated_at" = '2013-05-13 11:12:16.387844' WHERE "items"."id" = 11[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 2)
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "items" SET position = (position - 1) WHERE (1 = 1 AND position > 1 AND position <= 2 AND id != 11)[0m
+  [1m[35m (274.0ms)[0m  commit transaction
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-13 13:12:16 +0200
+Served asset /activeadmin_draggable.js - 200 OK (9ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-13 13:12:16 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (2ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-13 13:12:16 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (24.9ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:12:49 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:12:49 UTC +00:00]]
+  [1m[35m (293.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:12:49 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:12:49 UTC +00:00]]
+  [1m[35m (256.8ms)[0m  commit transaction
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mSQL (264.2ms)[0m  [1mUPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1 AND position < 2)[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mUPDATE "items" SET "position" = 1, "updated_at" = '2013-05-13 11:12:50.485836' WHERE "items"."id" = 13[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 1)
+  [1m[36m (264.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mUPDATE "items" SET "position" = 2, "updated_at" = '2013-05-13 11:12:50.757391' WHERE "items"."id" = 13[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 2)
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "items" SET position = (position - 1) WHERE (1 = 1 AND position > 1 AND position <= 2 AND id != 13)[0m
+  [1m[35m (273.6ms)[0m  commit transaction
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-13 13:12:51 +0200
+Served asset /activeadmin_draggable.js - 200 OK (6ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-13 13:12:51 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (2ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-13 13:12:51 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (24.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:13:22 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:13:22 UTC +00:00]]
+  [1m[35m (366.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:13:22 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:13:22 UTC +00:00]]
+  [1m[35m (281.1ms)[0m  commit transaction
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 14]]
+  [1m[36mSQL (260.3ms)[0m  [1mUPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1 AND position < 2)[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mUPDATE "items" SET "position" = 1, "updated_at" = '2013-05-13 11:13:23.364500' WHERE "items"."id" = 15[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 1)
+  [1m[36m (278.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mUPDATE "items" SET "position" = 2, "updated_at" = '2013-05-13 11:13:23.647052' WHERE "items"."id" = 15[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 2)
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "items" SET position = (position - 1) WHERE (1 = 1 AND position > 1 AND position <= 2 AND id != 15)[0m
+  [1m[35m (298.9ms)[0m  commit transaction
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-13 13:13:23 +0200
+Served asset /activeadmin_draggable.js - 200 OK (7ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-13 13:13:24 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (2ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-13 13:13:24 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (24.2ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:13:39 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:13:39 UTC +00:00]]
+  [1m[35m (307.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:13:39 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:13:39 UTC +00:00]]
+  [1m[35m (306.4ms)[0m  commit transaction
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 16]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 17]]
+  [1m[36mSQL (276.5ms)[0m  [1mUPDATE "items" SET position = (position - 1) WHERE (1 = 1 AND position > 1 AND position <= 2)[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mUPDATE "items" SET "position" = 2, "updated_at" = '2013-05-13 11:13:40.409823' WHERE "items"."id" = 16[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 2)
+  [1m[36m (279.3ms)[0m  [1mcommit transaction[0m
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-13 13:13:40 +0200
+Served asset /activeadmin_draggable.js - 200 OK (6ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-13 13:13:40 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (2ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-13 13:13:40 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (24.0ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:13:53 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:13:53 UTC +00:00]]
+  [1m[35m (459.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:13:54 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:13:54 UTC +00:00]]
+  [1m[35m (286.2ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (24.9ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:14:24 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:14:24 UTC +00:00]]
+  [1m[35m (302.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:14:24 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:14:24 UTC +00:00]]
+  [1m[35m (283.4ms)[0m  commit transaction
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 21]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position < 2)[0m
+  [1m[35m (0.2ms)[0m  UPDATE "items" SET "position" = 1, "updated_at" = '2013-05-13 11:14:25.123579' WHERE "items"."id" = 21
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 1)[0m
+  [1m[35m (274.8ms)[0m  commit transaction
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-13 13:14:25 +0200
+Served asset /activeadmin_draggable.js - 200 OK (7ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-13 13:14:25 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (2ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-13 13:14:25 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (24.8ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:14:47 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:14:47 UTC +00:00]]
+  [1m[35m (298.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:14:48 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:14:48 UTC +00:00]]
+  [1m[35m (306.3ms)[0m  commit transaction
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 23]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position < 2)[0m
+  [1m[35m (0.2ms)[0m  UPDATE "items" SET "position" = 1, "updated_at" = '2013-05-13 11:14:48.477649' WHERE "items"."id" = 23
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 1)[0m
+  [1m[35m (372.5ms)[0m  commit transaction
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 22]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 23]]
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-13 13:14:48 +0200
+Served asset /activeadmin_draggable.js - 200 OK (7ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-13 13:14:48 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (2ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-13 13:14:48 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (24.9ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:45:17 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:45:17 UTC +00:00]]
+  [1m[35m (414.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:45:18 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:45:18 UTC +00:00]]
+  [1m[35m (297.8ms)[0m  commit transaction
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-13 13:45:18 +0200
+Served asset /activeadmin_draggable.js - 200 OK (10ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-13 13:45:18 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (2ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-13 13:45:18 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (25.7ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:45:35 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:45:35 UTC +00:00]]
+  [1m[35m (424.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:45:35 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:45:35 UTC +00:00]]
+  [1m[35m (281.2ms)[0m  commit transaction
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 27]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position < 2)[0m
+  [1m[35m (0.5ms)[0m  UPDATE "items" SET "position" = 1, "updated_at" = '2013-05-13 11:45:35.844993' WHERE "items"."id" = 27
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 1)[0m
+  [1m[35m (364.4ms)[0m  commit transaction
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 26]]
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-13 13:45:36 +0200
+Served asset /activeadmin_draggable.js - 200 OK (6ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-13 13:45:36 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (2ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-13 13:45:36 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (24.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:46:04 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:46:04 UTC +00:00]]
+  [1m[35m (298.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:46:04 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:46:04 UTC +00:00]]
+  [1m[35m (298.6ms)[0m  commit transaction
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 29]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position < 2)[0m
+  [1m[35m (0.5ms)[0m  UPDATE "items" SET "position" = 1, "updated_at" = '2013-05-13 11:46:05.013999' WHERE "items"."id" = 29
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 1)[0m
+  [1m[35m (282.2ms)[0m  commit transaction
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 28]]
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-13 13:46:05 +0200
+Served asset /activeadmin_draggable.js - 200 OK (6ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-13 13:46:05 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (2ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-13 13:46:05 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 1)
+  [1m[36mSQL (25.6ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:46:20 UTC +00:00], ["name", "test"], ["position", 1], ["updated_at", Mon, 13 May 2013 11:46:20 UTC +00:00]]
+  [1m[35m (442.9ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position >= 2)
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "items" ("created_at", "name", "position", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 13 May 2013 11:46:21 UTC +00:00], ["name", "test2"], ["position", 2], ["updated_at", Mon, 13 May 2013 11:46:21 UTC +00:00]]
+  [1m[35m (322.0ms)[0m  commit transaction
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 31]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "items" SET position = (position + 1) WHERE (1 = 1 AND position < 2)[0m
+  [1m[35m (0.1ms)[0m  UPDATE "items" SET "position" = 1, "updated_at" = '2013-05-13 11:46:21.519077' WHERE "items"."id" = 31
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (1 = 1 AND position = 1)[0m
+  [1m[35m (295.0ms)[0m  commit transaction
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 30]]
+Started GET "/assets/activeadmin_draggable.js" for 127.0.0.1 at 2013-05-13 13:46:21 +0200
+Served asset /activeadmin_draggable.js - 200 OK (6ms)
+Started GET "/assets/jquery.tablednd_0_5.js" for 127.0.0.1 at 2013-05-13 13:46:21 +0200
+Served asset /jquery.tablednd_0_5.js - 200 OK (3ms)
+Started GET "/assets/jquery.table_tree.js" for 127.0.0.1 at 2013-05-13 13:46:21 +0200
+Served asset /jquery.table_tree.js - 200 OK (2ms)
